@@ -1,5 +1,5 @@
 from extras.scripts import Script
-#from local.utils import util_test
+from local.loctest import util_test
 
 def myblah(self):
 	self.log_info("HELLO")
