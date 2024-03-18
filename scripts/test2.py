@@ -1,5 +1,5 @@
 from extras.scripts import Script
-from local.loctest import util_test
+from local.utils import is_four_digit_numeric
 
 def myblah(self):
 	self.log_info("HELLO")
