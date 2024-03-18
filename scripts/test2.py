@@ -1,7 +1,9 @@
 from extras.scripts import Script
+from local.utils import util_test
 
 def myblah(self):
 	self.log_info("HELLO")
+	ab = util_test(self)
 	return "hi"
 
 class Test2(Script):
