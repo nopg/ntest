@@ -4,7 +4,8 @@ from local.utils import is_four_digit_numeric
 def myblah(self):
 	self.log_info("HELLO")
 	self.log_warning("yup")
-	#ab = util_test(self)
+	ab = is_four_digit_numeric("1234")
+	self.log_info(f"{ab=}")
 	return "hi"
 
 class Test2(Script):
